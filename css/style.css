@@ -26,7 +26,7 @@ body{font-family:var(--fb);background:var(--black);color:var(--txt);line-height:
 .sidebar.open{left:0}
 .sidebar-header{display:flex;align-items:center;gap:12px;padding:20px 24px;border-bottom:1px solid rgba(212,175,55,.1)}
 .sidebar-logo{width:40px;height:40px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:var(--ff);font-weight:800;font-size:.85rem;color:var(--black)}
-.sidebar-header span{font-family:var(--ff);font-weight:700;font-size:1.1rem}
+.sidebar-header span{font-family:var(--ff);font-weight:700;font-size:1.1rem;color:var(--cream)}
 .sidebar-close{margin-left:auto;background:none;border:none;color:var(--gold);font-size:1.25rem;cursor:pointer;padding:8px;transition:var(--tr)}
 .sidebar-close:hover{transform:rotate(90deg)}
 .sidebar-nav{flex:1;padding:24px 0;overflow-y:auto}
@@ -54,7 +54,7 @@ body{font-family:var(--fb);background:var(--black);color:var(--txt);line-height:
 .nav-container{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
 .nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .brand-icon{width:40px;height:40px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:var(--ff);font-weight:800;font-size:.85rem;color:var(--black)}
-.brand-text{font-family:var(--ff);font-weight:700;font-size:1.2rem}
+.brand-text{font-family:var(--ff);font-weight:700;font-size:1.2rem;color:var(--cream)}
 .nav-links{display:flex;align-items:center;gap:4px;list-style:none}
 .nav-link{padding:8px 16px;border-radius:100px;font-size:.85rem;font-weight:500;color:var(--txt2);text-decoration:none;transition:var(--tr)}
 .nav-link:hover,.nav-link.active{color:var(--gold)}
