@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Menu — Spice Garden</title>
   <meta name="description" content="Explore our royal menu of Awadhi delicacies — kebabs, biryanis, curries, and desserts." />
   <link rel="stylesheet" href="../css/style.css" />
@@ -13,12 +12,12 @@
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-header"><div class="sidebar-logo">SG</div><span>Spice Garden</span><button class="sidebar-close" id="sidebarClose">✕</button></div>
     <nav class="sidebar-nav">
-      <a href="../index.html" class="sidebar-link"><span class="s-icon">🏠</span>Home</a><div class="sidebar-divider"></div>
-      <a href="menu.html" class="sidebar-link active"><span class="s-icon">🍽️</span>Our Menu</a><div class="sidebar-divider"></div>
-      <a href="gallery.html" class="sidebar-link"><span class="s-icon">🖼️</span>Gallery</a><div class="sidebar-divider"></div>
-      <a href="reservation.html" class="sidebar-link"><span class="s-icon">📅</span>Reservation</a>
+      <a href="../index.html" class="sidebar-link"><span class="s-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>Home</a><div class="sidebar-divider"></div>
+      <a href="menu.html" class="sidebar-link active"><span class="s-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></span>Our Menu</a><div class="sidebar-divider"></div>
+      <a href="gallery.html" class="sidebar-link"><span class="s-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></span>Gallery</a><div class="sidebar-divider"></div>
+      <a href="reservation.html" class="sidebar-link"><span class="s-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>Reservation</a>
     </nav>
-    <div class="sidebar-footer"><p class="sidebar-hours">🕐 Open Daily 11 AM – 11 PM</p><a href="reservation.html" class="sidebar-cta">Reserve a Table</a></div>
+    <div class="sidebar-footer"><p class="sidebar-hours"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Open Daily 11 AM – 11 PM</p><a href="reservation.html" class="sidebar-cta">Reserve a Table</a></div>
   </aside>
   <nav class="navbar scrolled" id="navbar">
     <div class="nav-container">
@@ -45,9 +44,9 @@
     <div class="container">
       <div class="menu-filters" data-reveal>
         <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="veg">🌿 Vegetarian</button>
-        <button class="filter-btn" data-filter="nonveg">🥩 Non-Veg</button>
-        <button class="filter-btn" data-filter="dessert">🍮 Desserts</button>
+        <button class="filter-btn" data-filter="veg"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M12 22c4-4 8-7.5 8-12a8 8 0 1 0-16 0c0 4.5 4 8 8 12z"/></svg>Vegetarian</button>
+        <button class="filter-btn" data-filter="nonveg"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>Non-Veg</button>
+        <button class="filter-btn" data-filter="dessert"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M2 21h20"/><path d="M3 21V7l9-4 9 4v14"/><path d="M9 21v-4h6v4"/></svg>Desserts</button>
       </div>
       <div class="menu-grid" id="menuGrid">
         <div class="menu-card" data-category="veg" data-reveal>
