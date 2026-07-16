@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     e.preventDefault();
     const d=form.querySelector('#resDate');
     if(d){const sel=new Date(d.value);const today=new Date();today.setHours(0,0,0,0);if(sel<today){showToast('Please select a future date');return}}
-    showToast('✅ Table reserved! We will confirm shortly.');
+    showToast('Table reserved! We will confirm shortly.');
     form.reset();
   });
   if(document.getElementById('resDate')){document.getElementById('resDate').min=new Date().toISOString().split('T')[0]}
