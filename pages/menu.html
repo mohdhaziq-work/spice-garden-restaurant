@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu — Spice Garden</title>
+  <meta name="description" content="Explore our royal menu of Awadhi delicacies — kebabs, biryanis, curries, and desserts." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header"><div class="sidebar-logo">SG</div><span>Spice Garden</span><button class="sidebar-close" id="sidebarClose">✕</button></div>
+    <nav class="sidebar-nav">
+      <a href="../index.html" class="sidebar-link"><span class="s-icon">🏠</span>Home</a><div class="sidebar-divider"></div>
+      <a href="menu.html" class="sidebar-link active"><span class="s-icon">🍽️</span>Our Menu</a><div class="sidebar-divider"></div>
+      <a href="gallery.html" class="sidebar-link"><span class="s-icon">🖼️</span>Gallery</a><div class="sidebar-divider"></div>
+      <a href="reservation.html" class="sidebar-link"><span class="s-icon">📅</span>Reservation</a>
+    </nav>
+    <div class="sidebar-footer"><p class="sidebar-hours">🕐 Open Daily 11 AM – 11 PM</p><a href="reservation.html" class="sidebar-cta">Reserve a Table</a></div>
+  </aside>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-brand"><span class="brand-icon">SG</span><span class="brand-text">Spice Garden</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html" class="nav-link">Home</a></li>
+        <li><a href="menu.html" class="nav-link active">Menu</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="reservation.html" class="nav-link nav-cta">Reserve</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu"><span class="ham-line ham-top"></span><span class="ham-diamond">◆</span><span class="ham-line ham-bottom"></span></button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-tag" data-reveal>Our Menu</span>
+      <h1 class="page-title" data-reveal data-delay="200">Royal <span class="gold">Delicacies</span></h1>
+      <p class="page-desc" data-reveal data-delay="400">Curated with passion, served with pride</p>
+    </div>
+  </section>
+
+  <section class="menu-section section">
+    <div class="container">
+      <div class="menu-filters" data-reveal>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="veg">🌿 Vegetarian</button>
+        <button class="filter-btn" data-filter="nonveg">🥩 Non-Veg</button>
+        <button class="filter-btn" data-filter="dessert">🍮 Desserts</button>
+      </div>
+      <div class="menu-grid" id="menuGrid">
+        <div class="menu-card" data-category="veg" data-reveal>
+          <div class="menu-img veg-bg"><span class="menu-type veg">Veg</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Paneer Tikka Awadhi</h3><span class="menu-price">₹320</span></div><p>Smoked paneer in royal Awadhi spices, chargrilled to perfection</p></div>
+        </div>
+        <div class="menu-card" data-category="veg" data-reveal data-delay="50">
+          <div class="menu-img veg-bg"><span class="menu-type veg">Veg</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Dum Aloo Lucknowi</h3><span class="menu-price">₹280</span></div><p>Baby potatoes slow-cooked in rich cashew cream gravy</p></div>
+        </div>
+        <div class="menu-card" data-category="veg" data-reveal data-delay="100">
+          <div class="menu-img veg-bg"><span class="menu-type veg">Veg</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Vegetable Biryani</h3><span class="menu-price">₹350</span></div><p>Fragrant basmati rice layered with seasonal vegetables and saffron</p></div>
+        </div>
+        <div class="menu-card" data-category="veg" data-reveal data-delay="150">
+          <div class="menu-img veg-bg"><span class="menu-type veg">Veg</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Malai Kofta</h3><span class="menu-price">₹300</span></div><p>Cheese dumplings in creamy tomato-cashew sauce</p></div>
+        </div>
+        <div class="menu-card" data-category="nonveg" data-reveal data-delay="50">
+          <div class="menu-img nonveg-bg"><span class="menu-type nonveg">Non-Veg</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Galouti Kebab</h3><span class="menu-price">₹450</span></div><p>Melt-in-mouth kebabs made with 150+ spices, a Lucknowi legend</p></div>
+        </div>
+        <div class="menu-card" data-category="nonveg" data-reveal data-delay="100">
+          <div class="menu-img nonveg-bg"><span class="menu-type nonveg">Non-Veg</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Lucknowi Biryani</h3><span class="menu-price">₹420</span></div><p>Layered dum biryani with tender mutton and aromatic spices</p></div>
+        </div>
+        <div class="menu-card" data-category="nonveg" data-reveal data-delay="150">
+          <div class="menu-img nonveg-bg"><span class="menu-type nonveg">Non-Veg</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Butter Chicken Royal</h3><span class="menu-price">₹380</span></div><p>Tandoori chicken in velvety tomato-butter sauce</p></div>
+        </div>
+        <div class="menu-card" data-category="nonveg" data-reveal data-delay="200">
+          <div class="menu-img nonveg-bg"><span class="menu-type nonveg">Non-Veg</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Rogan Josh</h3><span class="menu-price">₹480</span></div><p>Kashmiri-style slow-cooked lamb in rich red gravy</p></div>
+        </div>
+        <div class="menu-card" data-category="dessert" data-reveal data-delay="100">
+          <div class="menu-img dessert-bg"><span class="menu-type dessert">Dessert</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Shahi Tukda</h3><span class="menu-price">₹220</span></div><p>Golden fried bread soaked in saffron milk, topped with rabri</p></div>
+        </div>
+        <div class="menu-card" data-category="dessert" data-reveal data-delay="150">
+          <div class="menu-img dessert-bg"><span class="menu-type dessert">Dessert</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Gulab Jamun Platter</h3><span class="menu-price">₹180</span></div><p>Soft milk dumplings in rose-cardamom sugar syrup</p></div>
+        </div>
+        <div class="menu-card" data-category="dessert" data-reveal data-delay="200">
+          <div class="menu-img dessert-bg"><span class="menu-type dessert">Dessert</span></div>
+          <div class="menu-body"><div class="menu-header"><h3>Kulfi Falooda</h3><span class="menu-price">₹200</span></div><p>Traditional ice cream with vermicelli and rose water</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-bottom"><p>© 2024 Spice Garden. All rights reserved.</p><p>Crafted by <strong>Mohd Haziq</strong></p></div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>

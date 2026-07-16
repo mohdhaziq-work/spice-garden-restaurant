@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spice Garden — Royal Awadhi Dining</title>
+  <meta name="description" content="Experience the finest Awadhi cuisine at Spice Garden. Royal dining, legendary flavors, unforgettable moments." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Sidebar Overlay -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-logo">SG</div>
+      <span>Spice Garden</span>
+      <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">✕</button>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="index.html" class="sidebar-link active"><span class="s-icon">🏠</span>Home</a>
+      <div class="sidebar-divider"></div>
+      <a href="pages/menu.html" class="sidebar-link"><span class="s-icon">🍽️</span>Our Menu</a>
+      <div class="sidebar-divider"></div>
+      <a href="pages/gallery.html" class="sidebar-link"><span class="s-icon">🖼️</span>Gallery</a>
+      <div class="sidebar-divider"></div>
+      <a href="pages/reservation.html" class="sidebar-link"><span class="s-icon">📅</span>Reservation</a>
+    </nav>
+    <div class="sidebar-footer">
+      <p class="sidebar-hours">🕐 Open Daily 11 AM – 11 PM</p>
+      <a href="pages/reservation.html" class="sidebar-cta">Reserve a Table</a>
+    </div>
+  </aside>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand"><span class="brand-icon">SG</span><span class="brand-text">Spice Garden</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="pages/menu.html" class="nav-link">Menu</a></li>
+        <li><a href="pages/gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="pages/reservation.html" class="nav-link nav-cta">Reserve</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span class="ham-line ham-top"></span>
+        <span class="ham-diamond">◆</span>
+        <span class="ham-line ham-bottom"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-glow"></div>
+    <div class="container hero-content">
+      <p class="hero-tag" data-reveal>Est. 2018 · Sultanpur</p>
+      <h1 class="hero-title" data-reveal data-delay="200">Where Every Bite Tells<br/>A <span class="gold">Royal Story</span></h1>
+      <p class="hero-desc" data-reveal data-delay="400">Authentic Awadhi cuisine crafted with century-old recipes and modern elegance</p>
+      <div class="hero-actions" data-reveal data-delay="600">
+        <a href="pages/menu.html" class="btn btn-primary">Explore Menu</a>
+        <a href="pages/reservation.html" class="btn btn-outline">Book a Table</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator"><span>Scroll</span><div class="scroll-line"></div></div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat" data-reveal><span class="stat-num" data-count="7">0</span><span class="stat-plus">+</span><span class="stat-label">Years</span></div>
+      <div class="stat" data-reveal data-delay="100"><span class="stat-num" data-count="150">0</span><span class="stat-plus">+</span><span class="stat-label">Dishes</span></div>
+      <div class="stat" data-reveal data-delay="200"><span class="stat-num" data-count="12">0</span><span class="stat-plus">+</span><span class="stat-label">Chefs</span></div>
+      <div class="stat" data-reveal data-delay="300"><span class="stat-num" data-count="50000">0</span><span class="stat-plus">+</span><span class="stat-label">Guests</span></div>
+    </div>
+  </section>
+
+  <!-- About Preview -->
+  <section class="about-preview section">
+    <div class="container about-grid">
+      <div class="about-visual" data-reveal="left">
+        <div class="about-img-placeholder">
+          <div class="placeholder-content"><span>🏛️</span><p>Restaurant Interior</p></div>
+        </div>
+        <div class="about-badge"><span class="badge-num">7+</span><span class="badge-txt">Years of<br/>Excellence</span></div>
+      </div>
+      <div class="about-content" data-reveal="right">
+        <span class="section-tag">Our Story</span>
+        <h2 class="section-title">A Legacy of <span class="gold">Flavor</span></h2>
+        <p>Nestled in the heart of Sultanpur, Spice Garden brings the royal kitchens of Awadh to your table. Our chefs weave magic with every dish — from slow-cooked Galouti Kebabs to fragrant Lucknowi Biryani.</p>
+        <div class="about-features">
+          <div class="feature"><span>🍽️</span><div><h4>Authentic Recipes</h4><p>Century-old Awadhi traditions</p></div></div>
+          <div class="feature"><span>👨‍🍳</span><div><h4>Master Chefs</h4><p>Trained in royal kitchens</p></div></div>
+          <div class="feature"><span>🌿</span><div><h4>Fresh Ingredients</h4><p>Locally sourced daily</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Dishes -->
+  <section class="featured section">
+    <div class="container">
+      <div class="section-header" data-reveal><span class="section-tag">Chef's Special</span><h2 class="section-title">Today's <span class="gold">Signature</span></h2></div>
+      <div class="dish-grid">
+        <div class="dish-card" data-reveal>
+          <div class="dish-img bg-kebab"><span class="dish-badge">Chef's Pick</span></div>
+          <div class="dish-body"><h3>Galouti Kebab</h3><p>Melt-in-mouth kebabs with 150+ spices</p><span class="dish-price">₹450</span></div>
+        </div>
+        <div class="dish-card" data-reveal data-delay="100">
+          <div class="dish-img bg-biryani"><span class="dish-badge">Signature</span></div>
+          <div class="dish-body"><h3>Lucknowi Biryani</h3><p>Layered dum biryani with tender mutton</p><span class="dish-price">₹420</span></div>
+        </div>
+        <div class="dish-card" data-reveal data-delay="200">
+          <div class="dish-img bg-dessert"><span class="dish-badge">Sweet</span></div>
+          <div class="dish-body"><h3>Shahi Tukda</h3><p>Golden fried bread with saffron rabri</p><span class="dish-price">₹220</span></div>
+        </div>
+      </div>
+      <div class="section-cta" data-reveal><a href="pages/menu.html" class="btn btn-outline">View Full Menu →</a></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><div class="nav-brand"><span class="brand-icon">SG</span><span class="brand-text">Spice Garden</span></div><p>Bringing the royal flavors of Awadh to your table since 2018.</p></div>
+      <div class="footer-col"><h4>Pages</h4><a href="index.html">Home</a><a href="pages/menu.html">Menu</a><a href="pages/gallery.html">Gallery</a><a href="pages/reservation.html">Reserve</a></div>
+      <div class="footer-col"><h4>Hours</h4><p>Mon–Sun: 11 AM – 11 PM</p><p class="gold-text">Kitchen closes 10:30 PM</p></div>
+      <div class="footer-col"><h4>Contact</h4><p>Near Clock Tower, Sultanpur</p><p>📞 +91 98765 43210</p><p>📧 hello@spicegarden.in</p></div>
+    </div>
+    <div class="container footer-bottom"><p>© 2024 Spice Garden. All rights reserved.</p><p>Crafted by <strong>Mohd Haziq</strong></p></div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>

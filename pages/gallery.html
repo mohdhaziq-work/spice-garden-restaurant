@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — Spice Garden</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header"><div class="sidebar-logo">SG</div><span>Spice Garden</span><button class="sidebar-close" id="sidebarClose">✕</button></div>
+    <nav class="sidebar-nav">
+      <a href="../index.html" class="sidebar-link"><span class="s-icon">🏠</span>Home</a><div class="sidebar-divider"></div>
+      <a href="menu.html" class="sidebar-link"><span class="s-icon">🍽️</span>Our Menu</a><div class="sidebar-divider"></div>
+      <a href="gallery.html" class="sidebar-link active"><span class="s-icon">🖼️</span>Gallery</a><div class="sidebar-divider"></div>
+      <a href="reservation.html" class="sidebar-link"><span class="s-icon">📅</span>Reservation</a>
+    </nav>
+    <div class="sidebar-footer"><p class="sidebar-hours">🕐 Open Daily 11 AM – 11 PM</p><a href="reservation.html" class="sidebar-cta">Reserve a Table</a></div>
+  </aside>
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-brand"><span class="brand-icon">SG</span><span class="brand-text">Spice Garden</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html" class="nav-link">Home</a></li><li><a href="menu.html" class="nav-link">Menu</a></li><li><a href="gallery.html" class="nav-link active">Gallery</a></li><li><a href="reservation.html" class="nav-link nav-cta">Reserve</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu"><span class="ham-line ham-top"></span><span class="ham-diamond">◆</span><span class="ham-line ham-bottom"></span></button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container"><span class="section-tag" data-reveal>Gallery</span><h1 class="page-title" data-reveal data-delay="200">A Glimpse of <span class="gold">Elegance</span></h1></div>
+  </section>
+
+  <section class="gallery-section section">
+    <div class="container">
+      <div class="gallery-grid">
+        <div class="gallery-item large" data-reveal><div class="gallery-placeholder">🏛️ Grand Dining Hall</div></div>
+        <div class="gallery-item" data-reveal data-delay="50"><div class="gallery-placeholder">🍽️ Plated Dishes</div></div>
+        <div class="gallery-item" data-reveal data-delay="100"><div class="gallery-placeholder">👨‍🍳 Chef at Work</div></div>
+        <div class="gallery-item" data-reveal data-delay="150"><div class="gallery-placeholder">🍷 Fine Dining</div></div>
+        <div class="gallery-item large" data-reveal data-delay="200"><div class="gallery-placeholder">🌿 Outdoor Seating</div></div>
+        <div class="gallery-item" data-reveal data-delay="250"><div class="gallery-placeholder">🍰 Dessert Bar</div></div>
+        <div class="gallery-item" data-reveal data-delay="300"><div class="gallery-placeholder">🪔 Ambiance</div></div>
+        <div class="gallery-item" data-reveal data-delay="350"><div class="gallery-placeholder">🥘 Kitchen</div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="container footer-bottom"><p>© 2024 Spice Garden. All rights reserved.</p><p>Crafted by <strong>Mohd Haziq</strong></p></div></footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
